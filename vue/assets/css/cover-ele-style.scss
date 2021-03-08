@@ -1,0 +1,77 @@
+@mixin cover-pagination {
+    /deep/ .el-pagination {
+      font-weight: normal;
+      .el-pager {
+        li {
+          background-color: #fff;
+          box-shadow: $box-shadow;
+          border-radius: $box-radius;
+          &.active {
+            background-color: $color;
+          }
+          &.el-icon-more {
+            background-color: transparent;
+            box-shadow: none;
+          }
+        }
+      }
+      .btn-next,
+      .btn-prev {
+        background-color: #fff;
+      }
+    }
+  }
+  @mixin cover-table {
+    /deep/ .table {
+      &:before {
+        height: 0;
+      }
+      color: #666;
+      overflow: visible; // 解决tr左右没有阴影
+      td,
+      th {
+        border-bottom: none;
+      }
+      tr td:first-child {
+        border-radius: 4px 0 0 4px;
+      }
+      tr td:last-child {
+        border-radius: 0 4px 4px 0;
+      }
+      background-color: transparent;
+      .el-table__header-wrapper {
+        // margin-bottom: 5px;
+        .table-head-cell {
+          background-color: $light-color;
+          .cell {
+            line-height: 26px;
+            color: #333;
+            font-size: 16px;
+            font-weight: normal;
+          }
+        }
+        .el-table__column-filter-trigger {
+          line-height: 26px;
+        }
+      }
+      .el-table__body-wrapper {
+        overflow: visible; // 解决tr左右没有阴影
+      }
+      .el-table__body {
+        border-spacing: 0 10px;
+        td {
+          padding: 10px 0;
+          .cell {
+            line-height: 30px;
+          }
+        }
+        tr:hover {
+          box-shadow: $box-shadow;
+          td {
+            background-color: #fff;
+          }
+        }
+      }
+    }
+  }
+  

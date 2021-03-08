@@ -1,0 +1,86 @@
+{
+  "id": "871264",
+  "name": "表单",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "606303",
+      "name": "更多",
+      "font_class": "gengduomore10",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "7556878",
+      "name": "减少",
+      "font_class": "jianshao",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "7711330",
+      "name": "弹窗关闭按钮",
+      "font_class": "danchuangguanbianniu",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "7711332",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "7711333",
+      "name": "创建",
+      "font_class": "chuangjian",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "7711334",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "8448529",
+      "name": "增加",
+      "font_class": "ziyuan",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "10671266",
+      "name": "移动-默认",
+      "font_class": "yidong-moren",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "10671267",
+      "name": "图片",
+      "font_class": "tupian",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "10832039",
+      "name": "点击图标",
+      "font_class": "dianjitubiao",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "10876798",
+      "name": "更多",
+      "font_class": "more-line-copy",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    }
+  ]
+}
